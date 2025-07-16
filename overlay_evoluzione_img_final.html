@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Overlay PSM - versione finale</title>
+  <style>
+    .container {
+      position: relative;
+      display: inline-block;
+      font-family: 'Avenir Next', 'Avenir Next World', sans-serif;
+    }
+
+    .container img {
+      display: block;
+      width: 1200px;
+      height: auto;
+    }
+
+    .hotspot {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      transform: translate(-40px, -40px);
+    }
+
+    .tooltip {
+      display: none;
+      position: absolute;
+      max-width: 280px;
+      background-color: #6c8cc4;
+      color: white;
+      padding: 12px;
+      border-radius: 12px;
+      font-size: 14px;
+      z-index: 10;
+    }
+
+    .hotspot:hover + .tooltip {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="evoluzione.png" alt="Evoluzione PSM">
+
+    <button class="hotspot" style="top: 203px; left: 164px;"></button>
+    <div class="tooltip" style="top: 243px; left: 164px;">
+      <strong>1. Monitoraggio dell’attuazione del Piano</strong><br>
+      Attivazione del sistema di monitoraggio previsto dal Piano, compresa l’evoluzione e aggiornamento del Portale del Mare e l’interoperabilità con piattaforme europee come EMODnet.<br>
+      (Azioni A.1–A.3)
+    </div>
+
+    <button class="hotspot" style="top: 161px; left: 318px;"></button>
+    <div class="tooltip" style="top: 201px; left: 318px;">
+      <strong>2. Monitoraggio ambientale integrato</strong><br>
+      Allineamento e rafforzamento del collegamento tra monitoraggio attuativo del Piano e il monitoraggio ambientale previsto dalla Strategia Marina e da altre normative (Direttiva Habitat, MSFD).<br>
+      (Azione B.1)
+    </div>
+
+    <button class="hotspot" style="top: 229px; left: 528px;"></button>
+    <div class="tooltip" style="top: 269px; left: 528px;">
+      <strong>3. Comunicazione e consultazione periodica</strong><br>
+      Avvio di una strategia di comunicazione mirata e di percorsi di consultazione multilivello con stakeholder pubblici e privati, per garantire trasparenza e partecipazione.<br>
+      (Azione C.1)
+    </div>
+
+    <button class="hotspot" style="top: 156px; left: 689px;"></button>
+    <div class="tooltip" style="top: 196px; left: 689px;">
+      <strong>4. Approfondimenti settoriali e tematici</strong><br>
+      Studi su coesistenza tra usi, effetti del cambiamento climatico, tecnologie emergenti, rinnovabili offshore e patrimonio culturale sommerso.<br>
+      (Azioni D.1, D.2)
+    </div>
+
+    <button class="hotspot" style="top: 234px; left: 871px;"></button>
+    <div class="tooltip" style="top: 274px; left: 871px;">
+      <strong>5. Sviluppo coordinato con altri piani</strong><br>
+      Rafforzamento della coerenza tra PSM e altri strumenti di pianificazione nazionale, regionale ed europea.<br>
+      (Azione E.1)
+    </div>
+
+    <button class="hotspot" style="top: 140px; left: 1045px;"></button>
+    <div class="tooltip" style="top: 140px; left: 760px;">
+      <strong>6. Approfondimenti conoscitivi e metodologici</strong><br>
+      Aggiornamento dei dataset, sviluppo indicatori più efficaci, supporto a vocazioni e scelte di Piano.<br>
+      (Azioni F.1–F.2)
+    </div>
+
+    <button class="hotspot" style="top: 318px; left: 1094px;"></button>
+    <div class="tooltip" style="top: 318px; left: 760px;">
+      <strong>7. Cooperazione transfrontaliera</strong><br>
+      Cooperazione e armonizzazione con piani e politiche dei Paesi confinanti, uso di piattaforme internazionali.<br>
+      (Azione G.1)
+    </div>
+  </div>
+</body>
+</html>
